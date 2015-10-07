@@ -96,19 +96,148 @@ textarea {
    ========================================================================== */
 
 
+.body-wrapper {
+    background-color: RGBA(155, 137, 134, 1);
+    height: 60vh;
+}
+
+.body-inner {
+    position: relative;
+}
+
+.body-inner aside {
+    position: absolute;
+    top: 20vh;
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+    padding: 10px;
+}
+
+.body-inner aside:nth-child(2) {
+    right: 0;
+}
+
+.top-spacer {
+    height: 5vh;
+    width: 100%;
+    background-color: RGBA(52, 52, 52, 1);
+}
+
+.logo-wrapper {
+    width: 100%;
+}
+
+.diem-logo-top {
+    width: 100%;
+}
+
+.top-nav-wrap {
+    width: 100%;
+    background-color: RGBA(52, 52, 52, 1);
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.top-nav-wrap div {
+    /*flex: 1 0 auto;*/
+    width: 33.33%;
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    transition: background-color .3s ease;
+}
+
+.top-nav-wrap div:hover {
+    background-color: rgba(122, 20, 25, 0.36);
+    cursor: pointer;
+
+}
+
+.top-nav-wrap div span {
+    align-self: center;
+}
+
+
+.footer-wrapper {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: RGBA(52, 52, 52, 1);
+    transition: background-color .3s ease;
+}
+
+.footer-wrapper div {
+
+}
+
+.footer-wrapper div span {
+    display: block;
+    width:100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-wrapper div span:hover {
+    background-color: rgba(122, 20, 25, 0.36);
+}
+
+.footer-wrapper div a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.footer-copyright {
+    color: white;
+    font-size: 10px;
+    padding: 8px;
+}
+
+.footer-copyright .jobs-link {
+    color: white;
+    font-size: 10px;
+    float: right;
+    margin-right: 70px;
+}
 
 
 
 
+/* FIRST MEDIA BREAK ::::: LAPTOP
+*
+*
+*/
+
+/*@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1000px) {
+      .logo-wrapper img {
+          width: 100%;
+      }
+}
 
 
+@media screen
+  and (min-device-width: 1000px)
+  and (max-device-width: 1600px){
 
+    .logo-wrapper {
+        text-align: center;
+    }
+    .logo-wrapper img {
+        width: 35%;
+    }
 
-
-
-
-
-
+}*/
 
 
 /* ==========================================================================
